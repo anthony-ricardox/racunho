@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO básico -->
+  <title>Portfólio de Artur Belarmino - Fotógrafo Profissional</title>
+  <meta name="description" content="Portfólio de Artur Belarmino, fotógrafo especializado em capturar momentos únicos com estilo profissional e criativo.">
+  <meta name="keywords" content="fotógrafo, portfólio, fotografia, ensaio fotográfico, casamento, eventos, Artur Belarmino">
+  <meta name="author" content="Artur Belarmino">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/logo-xartu.jpg" type="image/x-icon">
+
+  <!-- Open Graph (para redes sociais) -->
+  <meta property="og:title" content="Portfólio de Xartuur - Fotógrafo Profissional">
+  <meta property="og:description" content="A arte de transformar segundos em eternidade. Confira o portfólio de Xartuur.">
+  <meta property="og:image" content="https://anthony-ricardox.github.io/artur-belarmino/img/artur-b.jpg">
+  <meta property="og:url" content="https://xartuur-portfolio.netlify.app/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card (quando compartilhado no Twitter/X) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfólio de Xartuur Belarmino - Fotógrafo Profissional">
+  <meta name="twitter:description" content="A arte de transformar segundos em eternidade. Confira o portfólio de Xartuur.">
+  <meta name="twitter:image" content="https://anthony-ricardox.github.io/artur-belarmino/img/artur-b.jpg">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fontes Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1 class="logo">
+      <img src="img/logo-xartu.jpg" alt="Logo">
+    </h1>
+
+    <!-- Botão Hamburguer -->
+    <button class="hamburguer" id="hamburguer">&#9776;</button>
+
+    <nav>
+      <div class="menu" id="menu">
+        <a href="#home">Início</a>
+        <a href="#sobre">Quem sou eu</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <div class="carousel">
+      <button class="home-btn prev">&#10094;</button>
+      <div class="carousel-track">
+        <img src="img/carrosel/img-carrosel1.jpeg" alt="Portfólio 1" >
+        <img src="img/carrosel/img-carrosel2.jpeg" alt="Portfólio 2" >
+        <img src="img/carrosel/img-carrosel3.jpeg" alt="Portfólio 3" >
+        <img src="img/carrosel/img-carrosel4.jpeg" alt="Portfólio 4" >
+        <img src="img/carrosel/img-carrosel5.jpeg" alt="Portfólio 5" >
+        <img src="img/carrosel/img-carrosel6.jpeg" alt="Portfólio 6" >
+        <img src="img/carrosel/img-carrosel7.jpeg" alt="Portfólio 7" >
+         <img src="img/carrosel/img-carrosel8.jpeg" alt="Portfólio 8" >
+          <img src="img/carrosel/img-carrosel9.jpeg" alt="Portfólio 9" >
+      </div>
+      <button class="home-btn next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Quem sou eu -->
+  <section id="sobre" class="sobre">
+    <div class="texto">
+      <h2>Quem sou eu📷</h2>
+      <p>Meu nome é Artur, sou fotógrafo há mais de 2 anos, especializado em registrar momentos únicos e especiais. Trabalho com eventos, aniversários, noivados e celebrações em geral, sempre buscando transformar cada instante em uma lembrança inesquecível através de fotos incríveis. Minha missão é eternizar histórias com sensibilidade, criatividade e profissionalismo.</p>
+      
+    </div>
+
+    <!-- Slideshow -->
+    <div class="slideshow">
+      <div class="slides">
+        <p></p>
+        <img src="img/artur2.jpg" alt="Foto 1">
+        <img src="img/artur.jpg" alt="Foto 2">
+        <img src="img/artur1.jpg" alt="Foto 3">
+      </div>
+      <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+      <button class="next" onclick="plusSlides(1)">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- =================== PORTFÓLIO =================== -->
+  <section class="portfolio" id="portfolio">
+    <h2> Portfólio </h2>
+    <div class="cards-carousel">
+      <button class="portfolio-btn prev-btn">&#10094;</button>
+      <div class="cards-track">
+        <div class="card" id="years">
+          <a href="aniversario.html"><img src="aniversario/aniversario-5.jpg" alt="Foto 1"></a>
+          <h3>Aniversário</h3>
+          <p>A magia da infância em cada clique.</p>
+        </div>
+        <div class="card">
+          <a href="gestant.html" target="_self"><img src="img/carrosel/img-carrosel5.jpeg" alt="Foto 2"></a>
+          <h3>Gestante</h3>
+          <p>O amor em cada detalhe.</p>
+        </div>
+        <div class="card">
+          <a href="sportes.html"><img src="fut/fut04.jpeg" alt="Foto 3"></a>
+          <h3>Esportes</h3>
+          <p>Adrenalina, garra e esforço em cada clique.</p>
+        </div>
+        <div class="card">
+          <a href="noivado.html"><img src="noivado/n1.jpg" alt="Foto 4"></a>
+          <h3>Noivado</h3>
+          <p>Registro de momentos únicos que celebram o amor e o início de uma nova jornada</p>
+        </div>
+        <div class="card">
+          <a href="ensaio.html"><img src="ensaios/img-ensaio3.jpeg" alt="Foto 5"></a>
+          <h3>Ensaio</h3>
+          <p> Fotografias espontâneas que transformam instantes em memórias inesquecíveis.</p>
+        </div>
+
+        <div class="card">
+          <a href="pré-wendding.html"><img src="noivado/pre7.jpeg" alt="Foto 5"></a>
+          <h3>Pré-Wendding</h3>
+          <p> Amor registrado em sua forma mais natural.</p>
+        </div>
+        
+
+      </div>
+      <button class="portfolio-btn next-btn">&#10095;</button>
+    </div>
+  </section>
+
+ <section id="contato" class="contato-redes">
+    <h2>Conecte-se Comigo</h2>
+    <p class="subtitulo">Estamos prontos para te atender!</p>
+    <div class="contato-cards">
+        <div class="contato-card">
+            <h3><img src="img/icons8-instagram-48.png" onecte-se Comigo
+            Estamos prontos para te atender!alt="Instagram"></h3>
+            <p>Siga e acompanhe meu trabalho.</p>
+            <a href="https://www.instagram.com/xartuur/" target="_blank" class="btn-contato btn-insta">Seguir</a>
+        </div>
+
+        <div class="contato-card">
+            <h3><img src="img/icons8-whatsapp-50.png" alt="WhatsApp"></h3>
+            <p>Converse direto comigo.</p>
+            <a href="https://wa.me/558194872398?text=Oi,%20vi%20seu%20portfólio%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20pacotes%20de%20fotografia." target="_blank" class="btn-contato btn-whats">Conversar</a>
+        </div>
+    </div>
+</section>
+
+<section id="formulario-contato" class="contato-form-section">
+    <h2>Envie uma Mensagem</h2>
+    <p class="subtitulo">Preencha o formulário para entrar em contato diretamente.</p>
+    <form id="contactForm" action="https://formspree.io/f/contact.xartuur@gmail.com" method="POST">
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+            <label for="email-form">E-mail:</label>
+            <input type="email" id="email-form" name="_replyto" required>
+        </div>
+        <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Enviar</button>
+    </form>
+</section>
+
+  <footer>
+    <p>Desenvolvido por: <a href="https://github.com/anthony-ricardox" target="_blank"> anthony ricardo</a>
+        </footer>
+    </p>
+
+  <button id="btnTopo">↑</button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
